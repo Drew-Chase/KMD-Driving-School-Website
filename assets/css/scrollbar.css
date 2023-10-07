@@ -2,7 +2,7 @@
     --scrollbar-width: 10px;
     scroll-behavior: smooth;
     scrollbar-width: var(--scrollbar-width);
-    scrollbar-color: var(--primary) transparent;
+    scrollbar-color: white hsl(0,0%,25%);
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     width: var(--scrollbar-width);
-    background: var(--primary);
+    background: hsl(0,0%,15%);
     border-radius: 100px;
 }
 
